@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=little_krita
+X-Python-2-Compatible=false
+X-Krita-Manual=
+Name=Little Krita
+Comment=Some convenient actions

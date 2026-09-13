@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ActionCollection version="2" name="Scripts">
+    <Actions category="Scripts">
+        <text>Little Krita</text>
+
+        <Action name="createTracingPaper">
+            <icon>duplicatelayer</icon>
+            <text>Create Tracing Paper</text>
+        </Action>
+
+        <Action name="removeTracingPapers">
+            <icon>edit-clear</icon>
+            <text>Remove Tracing Papers</text>
+        </Action>
+
+        <Action name="mergeDownUnnamed">
+            <icon>merge-layer-below</icon>
+            <text>Merge Down Unnamed</text>
+        </Action>
+
+        <Action name="flipBrush">
+            <text>Flip Brush</text>
+        </Action>
+
+        <Action name="increaseBrushSizeFib">
+            <text>Increase Brush Size Fib</text>
+        </Action>
+
+        <Action name="decreaseBrushSizeFib">
+            <text>Decrease Brush Size Fib</text>
+        </Action>
+
+        <Action name="toggleSiblingLayers">
+            <icon>visible</icon>
+            <text>Toggle Sibling Layers</text>
+        </Action>
+    </Actions>
+
+</ActionCollection>

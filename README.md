@@ -4,22 +4,9 @@ A collection of small convenience actions for Krita, including tracing-paper cre
 
 ## Install
 
-1. Download or clone this repository.
-2. Copy **both** of these items into Krita's `pykrita` resource directory:
-
-   ```text
-   little_krita.desktop
-   little_krita/
-   ```
-
-   Common locations are:
-
-   - Windows: `%APPDATA%\krita\pykrita\`
-   - Linux: `~/.local/share/krita/pykrita/`
-   - macOS: `~/Library/Application Support/krita/pykrita/`
-
-   The `.desktop` file and the `little_krita` folder must be direct siblings in that directory.
-3. In Krita, open **Settings → Configure Krita → Python Plugin Manager**, enable **Little Krita**, and restart Krita.
+1. Download the plugin `.zip` file.
+2. In Krita, open **Tools → Scripts → Import Python Plugin From File** and select the downloaded `.zip` file.
+3. Restart Krita.
 
 The actions are available under **Tools → Little Krita → Scripts**. Assign keyboard shortcuts through **Settings → Configure Krita → Configure Shortcuts** if desired.
 
